@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "SwiftCTRLSDK"
-    s.version      = "0.1.3"
+    s.version      = "0.1.4"
     s.summary      = "SDK for SwiftCTRL."
     s.description  = <<-DESC
     Client facing SDK for SwiftCTRL technologies
@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
 
     s.ios.vendored_frameworks = "SwiftCTRLSDK.framework"
-    s.dependency 'Alamofire', '5.3'
     s.platform = :ios
     s.swift_version = "4.0"
     s.ios.deployment_target  = '13.0'
