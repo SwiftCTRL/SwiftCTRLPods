@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "SwiftCTRLSDK"
-    s.version      = "0.1.7"
+    s.version      = "0.1.8"
     s.summary      = "SDK for SwiftCTRL."
     s.description  = <<-DESC
     Client facing SDK for SwiftCTRL technologies
@@ -15,10 +15,8 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/SwiftCTRL/SwiftCTRLPods.git', :tag => s.version.to_s }
 
 
-    s.ios.vendored_frameworks = "SwiftCTRLSDK.framework"
+    s.vendored_frameworks = "SwiftCTRLSDK.xcframework"
     s.platform = :ios
     s.swift_version = "4.0"
     s.ios.deployment_target  = '13.0'
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
