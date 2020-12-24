@@ -27,6 +27,11 @@ public struct ApiUserPublicKeyResponse : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
+public struct APIVersionResponse : Swift.Codable {
+  public let version: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public protocol SwiftCtrlObserver : AnyObject {
   func didFinishInitialization()
   func reportError(error: Foundation.NSError)
