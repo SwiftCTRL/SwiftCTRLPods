@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftCTRLSDK-Swift.h</key>
 		<data>
-		sYgbSl3ShNi0UuvHNJzS0NzCCHo=
+		RiZyEW5n/NZV/ApJ00jflhd36SE=
 		</data>
 		<key>Headers/SwiftCTRLSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AAYkEUFpfk6KJ1B1RZs2aHNV+AE=
+		Lv1caem2SG+4g9qganuZOJt81/8=
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x8wDCPBb9a6d9MkkKW0YA1w1Zoo=
+		k/9wSx5C77JEXITfnLrKNspQl00=
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aT2hJPDRcN86O+Vn17kmyNvvqyc=
+		tBEV7IcgBdAUEJMwAVIyqtkV0Wo=
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		x8wDCPBb9a6d9MkkKW0YA1w1Zoo=
+		k/9wSx5C77JEXITfnLrKNspQl00=
 		</data>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		aT2hJPDRcN86O+Vn17kmyNvvqyc=
+		tBEV7IcgBdAUEJMwAVIyqtkV0Wo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACLer2FAnCYj/qCIaQwYETNLMraITo9ahGJMIgCtk0E=
+			zN/pJJYVHE7tWjT7s2q/o5IbBsK6kPO/CMQHyfGPxgI=
 			</data>
 		</dict>
 		<key>Headers/SwiftCTRLSDK.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YWWQRyYAmZBQ2mFbKhvsWOnSUgBpPYgxM+YtLbjgso=
+			oP+5/veiM0qXvRBTwmMIqsDAe4fBhpHDd8mBFU02aV4=
 			</data>
 		</dict>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0DgBqkHuK2xOq3z4P7XXTNWhjeMC1J2PZ/dPSP7WorM=
+			vMPhuYvKJyjbZg13ojBVHni64weeYOBcS4dIhiuAxp8=
 			</data>
 		</dict>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YWWQRyYAmZBQ2mFbKhvsWOnSUgBpPYgxM+YtLbjgso=
+			oP+5/veiM0qXvRBTwmMIqsDAe4fBhpHDd8mBFU02aV4=
 			</data>
 		</dict>
 		<key>Modules/SwiftCTRLSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0DgBqkHuK2xOq3z4P7XXTNWhjeMC1J2PZ/dPSP7WorM=
+			vMPhuYvKJyjbZg13ojBVHni64weeYOBcS4dIhiuAxp8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -32,18 +32,20 @@ public struct APIVersionResponse : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
-public protocol SwiftCtrlObserver : AnyObject {
-  func didFinishInitialization()
-  func reportError(error: Foundation.NSError)
-  func didReceiveQRCode(qrView: UIKit.UIImageView)
+@objc public protocol SwiftCtrlObserver : AnyObject {
+  @objc func didFinishInitialization()
+  @objc func reportError(error: Foundation.NSError)
+  @objc func didReceiveQRCode(qrView: UIKit.UIImageView)
+  @objc func didReceiveQRCode(qrBase64Image: Swift.String)
 }
-@_hasMissingDesignatedInitializers public class SwiftCtrl {
-  public static let shared: SwiftCTRLSDK.SwiftCtrl
-  public func initialize(with userToken: Swift.String, delegate: SwiftCTRLSDK.SwiftCtrlObserver)
-  public func registerForQRCode(userToken: Swift.String)
-  public func unregisterForQRCode(userToken: Swift.String)
-  public func disconnect()
+@_inheritsConvenienceInitializers @objc public class SwiftCtrl : ObjectiveC.NSObject {
+  @objc public static let shared: SwiftCTRLSDK.SwiftCtrl
+  @objc public func initialize(with userToken: Swift.String, delegate: SwiftCTRLSDK.SwiftCtrlObserver)
+  @objc public func registerForQRCode(userToken: Swift.String)
+  @objc public func unregisterForQRCode(userToken: Swift.String)
+  @objc public func disconnect()
   @objc deinit
+  @objc override dynamic public init()
 }
 public struct ApiUserTokenResponse : Swift.Codable {
   public let userId: Swift.Int
