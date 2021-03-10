@@ -230,8 +230,10 @@ SWIFT_PROTOCOL("_TtP12SwiftCTRLSDK17SwiftCtrlObserver_")
 @protocol SwiftCtrlObserver
 - (void)didFinishInitialization;
 - (void)reportErrorWithError:(NSError * _Nonnull)error;
+@optional
 - (void)didReceiveQRCodeWithQrView:(UIImageView * _Nonnull)qrView;
 - (void)didReceiveQRCodeWithQrBase64Image:(NSString * _Nonnull)qrBase64Image;
+- (void)didReceiveQRCodeWithQrBytesArray:(NSArray<NSNumber *> * _Nonnull)qrBytesArray;
 @end
 
 #if __has_attribute(external_source_symbol)

@@ -35,8 +35,9 @@ public struct APIVersionResponse : Swift.Codable {
 @objc public protocol SwiftCtrlObserver : AnyObject {
   @objc func didFinishInitialization()
   @objc func reportError(error: Foundation.NSError)
-  @objc func didReceiveQRCode(qrView: UIKit.UIImageView)
-  @objc func didReceiveQRCode(qrBase64Image: Swift.String)
+  @objc optional func didReceiveQRCode(qrView: UIKit.UIImageView)
+  @objc optional func didReceiveQRCode(qrBase64Image: Swift.String)
+  @objc optional func didReceiveQRCode(qrBytesArray: [Swift.UInt8])
 }
 @_inheritsConvenienceInitializers @objc public class SwiftCtrl : ObjectiveC.NSObject {
   @objc public static let shared: SwiftCTRLSDK.SwiftCtrl
