@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "SwiftCTRLSDK"
-    s.version      = "0.1.15"
+    s.version      = "0.1.16"
     s.summary      = "SDK for SwiftCTRL."
     s.description  = <<-DESC
     Client facing SDK for SwiftCTRL technologies
